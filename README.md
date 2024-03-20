@@ -6,10 +6,6 @@
 This tutorial outlines the implementation of on-premises Active Directory within Azure Virtual Machines.<br />
 
 
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: How to Deploy on-premises Active Directory within Azure Compute](https://www.youtube.com)
-
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
@@ -24,20 +20,21 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
+- Set up Resources in Azure
+- Ensure Connectivity Between the client and Domain Controller
+- Install Active Directory (AD)
+- Create an Admin account in AD
+- Join Client-1 to my Domain
+- Set up Remote Desktop for non-administrative users
+- Create a non-administrative user and log into my domain
+
+<h2>Prerequisites</h2>
+
+- Create a Virtual Machine running on Windows Server 2022 OS
+- Create a Virtual Machine running on Windows 10 OS. Ensure both are on the same vnet
+- Set NIC private address to be static on DC-1 under Virtual machines/ DC-1 | Network settings/ IP configurations
 
 <h2>Deployment and Configuration Steps</h2>
-
-<p>
-<img src="https://github.com/CSanders000/configure-ad/assets/161166823/3dbcf09e-68ff-42ca-b142-97cff213b2d9"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
 
 <p>
 <img src="https://github.com/CSanders000/configure-ad/assets/161166823/0637f98a-d78d-48ef-9b1f-c41844db524b"/>
